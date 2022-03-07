@@ -1,5 +1,3 @@
-FROM php:7.4-alpine as php
-FROM openjdk:11 as java
 FROM node:15.0.1-alpine as node
 FROM python:3.9.0-alpine as python
 FROM golang:1.15.3-alpine as golang
